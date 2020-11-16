@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*header*/
+header {
+    background: darkblue;
+    padding: 1rem;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+/*Heading*/
+#heading h1{
+    font-size: 2rem;
+}
+/*grid container*/
+#grid-container {
+    width: 90vw;
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-row-gap: 3rem;
+    margin: 5rem auto;
+}
+
+#heading {
+    text-align: center;
+}
+
+#heading h1 {
+    margin-bottom: 2rem;
+}
+
+/*card's container*/
+.card {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat (2, auto);
+    grid-row-gap: 2rem;
+    background: darkblue;
+    margin: 0 auto;
+}
+
+/*part #1*/
+.part-1 {
+    width: 75vw;
+    display: grid;
+    grid-template-columns: auto 30vw;
+    grid-column-gap: 2rem;
+    justify-content: center;
+    margin: 1rem auto 0 auto;
+    color: white;
+}
+
+.part-1 img {
+    width: 30vw;
+}
+
+.subtext {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+}
+
+.subtext h1 {
+    font-size: 3rem;
+}
+
+.subtext h2 {
+    font-size: 1.8rem;
+}
+
+.icons-card img {
+    width: 8vw;
+}
+/*colors*/
+
+.yellow h1, .yellow h2{
+    color: #FBAB0D;
+}
+
+.red h1, .red h2{
+    color: red;
+}
+
+/*icon's card with flexbox 😁 */
+.icons-card{
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+/*footer*/
+footer{
+    width: 100vw;
+    text-align: center;
+    padding: .8rem;
+    background: darkblue;
+    color: white;
+}
+
+
